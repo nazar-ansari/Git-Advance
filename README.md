@@ -6,3 +6,7 @@
 ```python
 git clone --template=../Example/* https://github.com/example/Repo.git
 ```
+**_Cloning a Repo with specific No of Commits (Clone till last 5 COMMITS)_**
+```python
+git clone --depth=5 https://github.com/example/Repo.git
+```
