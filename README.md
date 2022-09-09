@@ -14,3 +14,11 @@ git clone --depth=5 https://github.com/example/Repo.git
 ```python
 git clone --branch=feature https://github.com/example/Repo.git
 ```
+**_Configuring Colors_**
+```python
+(black,red,green,yellow,blue,magenta,cyan,white)
+
+git config --(global|local|system) color.branch.current "yellow"    (sets current branch color)
+
+git config --(global|local|system) color.branch.local "cyan"        (sets local branch color)
+```
