@@ -18,11 +18,15 @@ git clone --branch=feature https://github.com/example/Repo.git
 ```python
 (black,red,green,yellow,blue,magenta,cyan,white)
 
+git config --(global|local|system) color.ui true
+
 git config --(global|local|system) color.branch.current "yellow"    (sets current branch color)
 
 git config --(global|local|system) color.branch.local "cyan"        (sets local branch color)
 
-git config --(global|local|system) color.branch.remote "white"        (sets remote branch color)
+git config --(global|local|system) color.branch.remote "white"      (sets remote branch color)
 
-git config --(global|local|system) color.branch.upstream "magenta"        (sets Upstream branch color)
+git config --(global|local|system) color.branch.upstream "magenta"   (sets Upstream branch color)
+
+git config --(global|local|system) color.grep.match "white"        (sets matching text in `git log --grep=<pattern>` color)
 ```
