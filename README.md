@@ -1,2 +1,1 @@
-# Git-Advance
-A Repository Consist of the Advanced git concepts and command to use in various Situations .
+<h1 align="center">🪄 <i>Advance Git-Concepts</i> 🪄</h1>
