@@ -29,4 +29,8 @@ git config --(global|local|system) color.branch.remote "white"      (sets remote
 git config --(global|local|system) color.branch.upstream "magenta"   (sets Upstream branch color)
 
 git config --(global|local|system) color.grep.match "white"        (sets matching text in `git log --grep=<pattern>` color)
+
+git config --(global|local|system) color.diff.new "yellow"        (sets color for new changes while git diff)
+
+git config --(global|local|system) color.diff.old "red"           (sets color for old changes while git diff)
 ```
