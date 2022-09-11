@@ -34,3 +34,13 @@ git config --(global|local|system) color.diff.new "yellow"        (sets color fo
 
 git config --(global|local|system) color.diff.old "red"           (sets color for old changes while git diff)
 ```
+**_Configuring Default editor for everything while newcommits or rebasing n all_**
+```python
+git config --global core.editor "code -w"       (Default editorto VScode)
+
+git config --global core.editor "notepad.exe"       (Default editor to notepad )
+
+git config --global core.editor "nano -w"       (Default editor to nano )
+
+git config --global core.editor "vim"       (Default editor to vim )
+```
