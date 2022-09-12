@@ -53,6 +53,8 @@ git unstage
 ```python
 git config --global user.name "Alex Christopher"
 git config --global user.email "alex@christopher"
+git config --global --add user.name "Shezam kroker"
+git config --global --add user.email "shezam@kroker"
 ```
 **_While Commiting_**
 ```python
