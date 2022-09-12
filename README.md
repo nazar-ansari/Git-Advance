@@ -49,6 +49,11 @@ git config --global core.editor "vim"       (Default editor to vim )
 git config --global alias.unstage 'reset --hard HEAD '
 git unstage
 ```
+**_Configuring Users and Emails_**
+```python
+git config --global user.name "Alex Christopher"
+git config --global user.email "alex@christopher"
+```
 **_While Commiting_**
 ```python
 git commit -am "YOUR SAMPLE MESSAGE"      (add first and then commit)
