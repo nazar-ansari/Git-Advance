@@ -63,3 +63,9 @@ git commit --amend -m "rewrite the previous message at HEAD"    (rewrite the pas
 git commit --amend --no-edit       (add the changes and use the previous commit)
 git commit --amend --no-edit --author="Derek Cause <derek@cause>"
 ```
+**_Getting Differences_**
+```python
+git diff --staged         (see changes after staging the working directory)
+git diff main..develop Sample.txt   (show differences what is in develop & not in main branch of `Sample.txt` file)
+git diff --color-words      (show changes what is added and deleted in better way)
+```
