@@ -60,4 +60,6 @@ git config --global --add user.email "shezam@kroker"
 ```python
 git commit -am "YOUR SAMPLE MESSAGE"      (add first and then commit)
 git commit --amend -m "rewrite the previous message at HEAD"    (rewrite the past commit message)
+git commit --amend --no-edit       (add the changes and use the previous commit)
+git commit --amend --no-edit --author="Derek Cause <derek@cause>"
 ```
