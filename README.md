@@ -71,8 +71,15 @@ git diff --color-words      (show changes what is added and deleted in better wa
 ```
 **_Stashing Changes_**
 ```python
-git stash             (stashes only staged or the one which was commited earlier{file})
-git stash -u          (stash both staged changes and the File/Folder Created FirstTime)
-git stash -a          (all even inclue file which are ignored)
+git stash                     (stashes only staged or the one which was commited earlier{file})
+git stash -u                  (stash both staged changes and the File/Folder Created FirstTime)
+git stash -a                  (all even inclue file which are ignored)
 git stash save "Unique Message"         (save this stash with name "Unique Message")
+git stash list -n 3           (show last three stashes)
+git stash show stash@{0} -p   (show the changes in this stash with detail changes )
+git stash pop                 (apply back recent stash to working directory)
+git stash apply stash@{1}     (apply back copy of recent stash and keep original in stash )
+git stash drop                (drop the recent stash)
+git stash clear               (clear all the stashes)
+git stash branch feature stash@{0}      (apply stash changes to new branch)
 ```
