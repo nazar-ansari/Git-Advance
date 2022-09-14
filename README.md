@@ -69,3 +69,10 @@ git diff --staged         (see changes after staging the working directory)
 git diff main..develop Sample.txt   (show differences what is in develop & not in main branch of `Sample.txt` file)
 git diff --color-words      (show changes what is added and deleted in better way)
 ```
+**_Stashing Changes_**
+```python
+git stash             (stashes only staged or the one which was commited earlier{file})
+git stash -u          (stash both staged changes and the File/Folder Created FirstTime)
+git stash -a          (all even inclue file which are ignored)
+git stash save "Unique Message"         (save this stash with name "Unique Message")
+```
