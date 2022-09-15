@@ -83,3 +83,7 @@ git stash drop                (drop the recent stash)
 git stash clear               (clear all the stashes)
 git stash branch feature stash@{0}      (apply stash changes to new branch)
 ```
+**_Setting Custom .gitignore File_**
+```python
+git config --global core.excludesFile ~/.gitignore
+```
