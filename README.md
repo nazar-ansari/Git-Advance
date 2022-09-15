@@ -89,8 +89,11 @@ git config --global core.excludesFile ~/.gitignore
 ```
 **_Listing Logs of Commits_**
 ```python
-git log -n 4                  (show last 4 commits)
-git log -n 4 -p               (show last 4 commits in detail with addition & deletions)
-git log Filename.txt          (show the commits which is related to Filename.txt)
-git log --grep=<pattern>      (show commits that contains the message related to pattern)
+git log -n 4                                      (show last 4 commits)
+git log -n 4 -p                                   (show last 4 commits in detail with addition & deletions)
+git log Filename.txt                              (show the commits which is related to Filename.txt)
+git log --grep=<pattern>                          (show commits that contains the message related to pattern)
+git log --graph --oneline --decorate              (shows the logs in graph related to the branches with single line commits)
+git log --before=01-02-2022 --after=25-01-2022    (shows the commits between range of dates)
+git log --oneline BranchA..BranchB                (commits which are present in BranchB & not in BranchA)
 ```
