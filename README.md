@@ -106,3 +106,9 @@ git checkout V1.1            (to Checkout to Specific Tag as a Detached HEAD)
 git push origin --tags       (by Default normal pushing doesn't push tags on Repo need to use `--tags` )
 git tag -d V1.1              (to delete specific tag)
 ```
+**_Inspecting a Specific File with Blame_**
+```python
+git blame index.html      (show the recent changes done by whom and what was changes)
+git blame -e index.html   (show the email instead of name)
+git blame -w index.html   (ignore the commits that consists any whitespace changes by other author)
+```
