@@ -97,3 +97,9 @@ git log --graph --oneline --decorate              (shows the logs in graph relat
 git log --before=01-02-2022 --after=25-01-2022    (shows the commits between range of dates)
 git log --oneline BranchA..BranchB                (commits which are present in BranchB & not in BranchA)
 ```
+**_Tags in Commits_**
+```python
+git tag -a V1.1 -m "Initial Release"
+git tag -a V1.2 -m "Second Release" HEAD~2
+git tag -a V1.2 -m "Third Release" HEAD~2 -f
+```
