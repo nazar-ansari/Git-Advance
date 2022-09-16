@@ -102,4 +102,7 @@ git log --oneline BranchA..BranchB                (commits which are present in 
 git tag -a V1.1 -m "Initial Release"
 git tag -a V1.2 -m "Second Release" HEAD~2
 git tag -a V1.2 -m "Third Release" HEAD~2 -f
+git checkout V1.1            (to Checkout to Specific Tag as a Detached HEAD)
+git push origin --tags       (by Default normal pushing doesn't push tags on Repo need to use `--tags` )
+git tag -d V1.1              (to delete specific tag)
 ```
