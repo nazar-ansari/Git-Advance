@@ -116,3 +116,9 @@ git blame -w index.html   (ignore the commits that consists any whitespace chang
 ```python
 git clean -n -x -d -f     (-n:DRY test , -x:inclued ignored one , -d: Directory , -f:force)
 ```
+**_Reverting a Specific Commit_**
+```python
+git revert {commitID_No}              (inverse the changes to specific commit in working directory)
+git revert --no-edit {commitID_No}    (inverse the changes but do not open editor for reverting message)
+git revert -n {commitID_No}           (inverse the changes but do not commit)
+```
