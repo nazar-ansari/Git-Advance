@@ -115,6 +115,7 @@ git blame -w index.html   (ignore the commits that consists any whitespace chang
 **_Cleaning a Folder&Files That are created First Time_**
 ```python
 git clean -n -x -d -f     (-n:DRY test , -x:inclued ignored one , -d: Directory , -f:force)
+git rm -rf {File/FolderName}
 ```
 **_Reverting a Specific Commit_**
 ```python
