@@ -122,3 +122,10 @@ git revert {commitID_No}              (inverse the changes to specific commit in
 git revert --no-edit {commitID_No}    (inverse the changes but do not open editor for reverting message)
 git revert -n {commitID_No}           (inverse the changes but do not commit)
 ```
+**_Resetting the working directory and checkouts_**
+```python
+git reset index.html                (unstage the file)
+git reset HEAD~2                    (move head to specific commit and leave changes further from it in Working Directory)
+git reset --hard HEAD~2             (move head to specific commit Strictly without leaving and further changes)
+git reset --hard remote/BranchA     (force to match the commits as per the remote log's)
+```
