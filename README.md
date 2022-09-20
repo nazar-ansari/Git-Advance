@@ -130,3 +130,11 @@ git reset HEAD~2                    (move head to specific commit and leave chan
 git reset --hard HEAD~2             (move head to specific commit Strictly without leaving and further changes)
 git reset --hard remote/BranchA     (force to match the commits as per the remote log's)
 ```
+**_Restoring Changes_**
+```python
+git restore Filename                (restore the working changes to HEAD)
+git restore --staged Filename       (restore the changes from Staging area to Working Directory)
+git restore --source=HEAD~2 .       (restore all changes in working directory to HEAD~2)
+git restore -p Filename             (restore only specific HUNK of changes {y/n})
+
+```
