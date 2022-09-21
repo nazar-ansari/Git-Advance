@@ -136,5 +136,13 @@ git restore Filename                (restore the working changes to HEAD)
 git restore --staged Filename       (restore the changes from Staging area to Working Directory)
 git restore --source=HEAD~2 .       (restore all changes in working directory to HEAD~2)
 git restore -p Filename             (restore only specific HUNK of changes {y/n})
-
+```
+**_Remote URL's config_**
+```python
+git remote -v                                       (show all remotes)
+git remote add origin https://github.com/example    (add remote name origin)
+git remote get-url origin                           (displays the url of remote)
+git remote set-url origin                           (change past url address to another address)
+git remote rename origin Another_name               (change name of remote)
+git remote show origin                              (show detail Information about Specific Origin)
 ```
