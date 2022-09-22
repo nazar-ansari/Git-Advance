@@ -146,3 +146,12 @@ git remote set-url origin                           (change past url address to 
 git remote rename origin Another_name               (change name of remote)
 git remote show origin                              (show detail Information about Specific Origin)
 ```
+**_Git Branches_**
+```python
+git branch                  (to list out local Branches)
+git branch feature          (create a new branch name feature from current HEAD)
+git branch feature HEAD~3   (create a new branch name feature from past 3 commits)
+git checkout -b develop     (creates new branch & Immediately Switch to it)
+git branch -r               (list all the remote branches for your origin)
+git branch -a               (list all the branches locally and Remote one)
+```
